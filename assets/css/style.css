@@ -1,13 +1,33 @@
+body{background: #ffffff;
+	border: 1px;
+	/*width: 960px;
+*/
+}
+
+.container{background: #FFFFFF;
+			border: 1px;
+			padding: 40px;
+			/*margin-left: 40px;*/
+			/*width: 650px;*/
+}
 header{
-	background-color: #4aaaa5;
+	background: #4aaaa5;
+	float: left;
 	color: white;
-	font-family: "Georgia", Times, Times New Roman, Serif;
+	font-family: "Georgia", Times, Serif;
 	width: 20%;
 	padding: 20px;
-	float: left;
-	margin-left: 20px;
-	text-align: center;
-	font-size: 
+	margin-top: 1px;
+	margin-left: 45px;
+
+}
+.name{text-align: center;
+	font-size: 24px;
+	
+	}
+.links{background: white;
+		margin: 10px;
+		float:right;
 }
 
 ul {
@@ -15,55 +35,81 @@ ul {
 	float: right;
 	list-style-type: none;
 	padding:0;
-	margin:(10, 0, 0, 0);
+	
 }
 
 li{clear: both;
 	display: inline;
-	margin-right: 20px;
+	margin-left: 20px;
 }
 
-
-	.Aboutme{
-	clear: both;
-	margin-left: 20px;
-	color: #4aaaa5;
-	}
-
-	
-.relative{
+.content{
 	float: left;
-	padding: 20px;
+	padding: 40px;
 	border:1px solid #eee;
 	border-color: #dddddd;
-	position: relative;
-	margin: 0, 0, 10px, 10px;
+	background-color: #ECF0F1;
+	/*margin-left: 9px;*/
+	margin-left: 75px;
+	margin-right: 500px;
+	width: 1060px;
 	
-	}
+		}
 
-.column{
+.content1{
 	float: left;
-	padding:15px;
-}	
-
-.bio{
-	float: left;
-	padding: 15px;
-	width: 15%;
+	margin-left: 10px;
+	background-color: #ffffff;
+	width: 50%;
+	
+	/*width: 650px;*/
+	border: 1px;
+	margin-right: 25px;
+	margin-top: 25px;
 
 }
 
-.navs{
+.content2{
 	float: right;
-	padding:15px;
-	width: 10%;
-	margin-right: 20px;
-
-}	
-
-.footer {
-	clear: both;
-	padding: 20px;
-	background-color: #666666;
+	/*width: 270px;*/
+	width: 45%;
+	/*left: 10px;*/
+	height: 2%;
+	background-color: #ffffff;
+	margin-right: 15px;
+	margin-top: 25px;
 	text-align: center;
+
+}
+
+.footer{
+	background: #61727A;
+	clear: both;
+	text-align: center;
+	color: #fff;
+	padding:20px 0;
+	/*width: 960px;*/
+
+
+}
+
+
+
+
+
+
+p{
+	line-height: 28px;
+	font-size: 20px;
+}
+
+h2{
+	border-bottom: solid;
+	font-size: 23px;
+	color: #4aaaa5;
+
+}
+
+h3{
+	color: #4aaaa5;
 }
